@@ -1,0 +1,12 @@
+path: dataset/yolo_dataset
+
+train: images/train
+val: images/val
+
+kpt_shape: [5, 3]
+
+flip_idx: [1, 0, 2, 4, 3]
+
+nc: 1
+
+names: ['face']
